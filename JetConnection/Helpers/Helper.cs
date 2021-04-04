@@ -11,7 +11,7 @@ using JetConnection.Factories;
 
 namespace JetConnection.Helpers
 {
-    static class Helpers
+    public static class Helpers
     {
         public static int CountRows(JetConnection jetConnection, string sqlStatement)
         {
